@@ -29,7 +29,8 @@ environment and give steps for altering .bashrc.  See the **PHP Configuration** 
 
 ### PHP Configuration
 
-To control which PHP executable is used to run PHPBU, add the following to the .bashrc file for any user that needs to run PHPBU:
+To control which PHP executable is used to run PHPBU, add the following to the .bashrc file for any user that needs to
+run PHPBU:
 	
 `export PHPBU_PHP=/path/to/php/executable`
 	
@@ -38,9 +39,11 @@ with `allow_url_fopen=1`.  If other PHP settings need to overridden, override se
 	
 `export PHPBU_PHP_OPTIONS="-d allow_url_fopen=1 -d OTHERSETTING -d SOME_OTHER_SETTING"`
 
-Follow the pattern shown above.  Each overridden setting must be preceded by `-d`.  Please always include `-d allow_url_fopen=1`.
+Follow the pattern shown above.  Each overridden setting must be preceded by `-d`.  Please always include
+`-d allow_url_fopen=1`.
 
-After making changes to .bashrc, you will need to logout and login to have them  take effect.  Alternatively, run the following:
+After making changes to .bashrc, you will need to logout and login to have them  take effect.  Alternatively, run the
+following:
 	
 `source ~/.bashrc`
 	
@@ -50,25 +53,17 @@ After making changes to .bashrc, you will need to logout and login to have them 
 2. Move into the new directory.
 3. Use Git to pull down the PHPBU project:
 
-    `git init`    
+    `git init`
+
     `git remote add origin https://github.com/egifford/phpbu-installer.git`
+
     `git pull origin master`
-4. The master branch contains the latest, bleeding edge of this project.  If a particular version is desired, use the following command, but type a versioned tag instead of the text "VERSION-TAG":
-		a. git checkout VERSION-TAG
-		b. To list what versions are available, use: git tag
-	8. Install PHP code: composer update --no-dev -o
-	9. Make the PHPBU script executable:
-		a. chmod 775 phpbu
-	10. Do an initial test of the installation:
-		a. Run this command: ./phpbu --version
-		b. You should see about like:
-phpbu 4.0.10
-	11. So far so good!
-	12. Make PHPBU available to all users:
-		a. cd /usr/local/bin
-		b. ln -s /opt/phpbu/phpbu phpbu
-	13. Use the 'exit' command to logout from the root user: exit
-	14. Be sure to set configuration options for each user that needs to execute PHPBU.
-	15. Running as an unprivileged user, try running PHPBU: phpbu --version
-		a. You should see output like:
-phpbu 4.0.10
+
+4. The master branch contains the latest, bleeding edge of this project.  If a particular version is desired, use the
+following command, but type a versioned tag instead of the text "VERSION-TAG":
+    * `git checkout VERSION-TAG`
+    * To list what versions are available, use: `git tag`
+5. Install PHP code: `composer update --no-dev -o`
+6. Make the PHPBU script executable: `chmod 755 phpbu`
+7. Test the installation: `./phpbu --version`
+8. You should see about like: `phpbu 4.0.10`
