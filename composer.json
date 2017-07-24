@@ -1,0 +1,6 @@
+{
+  "require" : {
+    "phpbu/phpbu"     : "4.0.10",
+    "aws/aws-sdk-php" : "3.31.8"
+  }
+}
