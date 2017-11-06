@@ -47,4 +47,4 @@ case $("$php" -r "echo PHP_OS;") in
 		SCRIPT_PATH="$(cygpath -w -a -- "$SCRIPT_PATH")" ;;
 esac
 
-exec "$php" "$php_options" "$SCRIPT_PATH" "$@"
+eval "$php" "$php_options" "$SCRIPT_PATH" "$@"
