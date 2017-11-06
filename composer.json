@@ -1,6 +1,21 @@
 {
-  "require" : {
-    "phpbu/phpbu":     "5.0.7",
+  "name":        "egifford/phpunit-installer",
+  "description": "Helper scripts for installing and running PHPBU.",
+  "type":        "project",
+  "homepage":    "https://github.com/egifford/phpbu-installer",
+  "license": [
+    "MIT"
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/egifford/phpbu"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+
+    "phpbu/phpbu":     "dev-cli_detectCmdLocationInPaths",
     "aws/aws-sdk-php": "3.36.37"
   },
   "config": {
