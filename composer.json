@@ -1,6 +1,9 @@
 {
   "require" : {
-    "phpbu/phpbu"     : "4.0.10",
-    "aws/aws-sdk-php" : "3.31.8"
+    "phpbu/phpbu":     "5.0.7",
+    "aws/aws-sdk-php": "3.36.37"
+  },
+  "config": {
+    "optimize-autoloader": true
   }
 }
