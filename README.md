@@ -53,11 +53,11 @@ following:
 2. Move into the new directory.
 3. Use Git to pull down the PHPBU project:
 
-    `git init`
-
-    `git remote add origin https://github.com/egifford/phpbu-installer.git`
-
-    `git pull origin master`
+```bash
+git init
+git remote add origin https://github.com/egifford/phpbu-installer.git
+git pull origin master
+```
 
 4. The master branch contains the latest, bleeding edge of this project.  If a particular version is desired, use the
 following command, but type a versioned tag instead of the text "VERSION-TAG":
