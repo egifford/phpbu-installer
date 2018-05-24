@@ -9,8 +9,12 @@
   "require": {
     "php": ">=7.0",
 
-    "phpbu/phpbu":     "5.0.8",
-    "aws/aws-sdk-php": "3.36.37"
+    "phpbu/phpbu":     "5.0.12",
+    "aws/aws-sdk-php": "3.56.6"
+  },
+  "require-dev": {
+    "roave/security-advisories":    "dev-master",
+    "sllh/composer-versions-check": "^2.0"
   },
   "config": {
     "optimize-autoloader": true
