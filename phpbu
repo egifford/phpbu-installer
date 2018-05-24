@@ -44,7 +44,7 @@ fi
 SCRIPT_PATH="$(dirname "$SELF_PATH")/vendor/phpbu/phpbu/phpbu"
 case $("$php" -r "echo PHP_OS;") in
 	WINNT*)
-		SCRIPT_PATH="$(cygpath -w -a -- "$SCRIPT_PATH")" ;;
+		SCRIPT_PATH="$(cygpath -m -a -- "$SCRIPT_PATH")" ;;
 esac
 
 eval "$php" "$php_options" "$SCRIPT_PATH" "$@"
