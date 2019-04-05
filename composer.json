@@ -7,11 +7,11 @@
     "MIT"
   ],
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.1",
 
-    "phpbu/phpbu":      "5.0.12",
-    "aws/aws-sdk-php":  "3.56.6",
-    "vlucas/phpdotenv": "2.4.0"
+    "phpbu/phpbu":      "5.1.11",
+    "aws/aws-sdk-php":  "3.91.3",
+    "vlucas/phpdotenv": "2.6.1"
   },
   "require-dev": {
     "roave/security-advisories":    "dev-master",
