@@ -1,23 +1,45 @@
 {
   "name":        "egifford/phpunit-installer",
-  "description": "Helper scripts for installing and running PHPBU.",
   "type":        "project",
+  "description": "Helper scripts for installing and running PHPBU.",
+  "keywords":    [],
   "homepage":    "https://github.com/egifford/phpbu-installer",
   "license": [
     "MIT"
   ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.4",
 
-    "phpbu/phpbu":      "6.0.7",
-    "aws/aws-sdk-php":  "3.138.10",
-    "vlucas/phpdotenv": "3.6.5"
+    "phpbu/phpbu":      "6.0.9",
+    "aws/aws-sdk-php":  "3.158.1",
+    "vlucas/phpdotenv": "5.2.0"
   },
   "require-dev": {
     "roave/security-advisories":    "dev-master",
     "sllh/composer-versions-check": "^2.0"
   },
   "config": {
+    "platform": {
+      "php": "7.4.10"
+    },
     "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "repositories": [
+  ],
+  "bin": [
+  ],
+  "scripts": {
+    "post-install-cmd": [
+    ],
+    "post-update-cmd": [
+    ]
   }
 }
