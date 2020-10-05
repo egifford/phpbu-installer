@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32fd7f0863fb484d9b61decdba99c0eb",
+    "content-hash": "4db970ff0667b37772ca874943e4413c",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -370,16 +370,16 @@
         },
         {
             "name": "phpbu/phpbu",
-            "version": "6.0.9",
+            "version": "6.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianfeldmann/phpbu.git",
-                "reference": "c3400bc1ee30dcf507bb10bbf2c1647e9dca3c4c"
+                "reference": "063b056d7094f19114f0d14fd1ce1f6525449bab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianfeldmann/phpbu/zipball/c3400bc1ee30dcf507bb10bbf2c1647e9dca3c4c",
-                "reference": "c3400bc1ee30dcf507bb10bbf2c1647e9dca3c4c",
+                "url": "https://api.github.com/repos/sebastianfeldmann/phpbu/zipball/063b056d7094f19114f0d14fd1ce1f6525449bab",
+                "reference": "063b056d7094f19114f0d14fd1ce1f6525449bab",
                 "shasum": ""
             },
             "require": {
@@ -388,7 +388,7 @@
                 "ext-spl": "*",
                 "php": ">=7.2.0",
                 "phpmailer/phpmailer": "^6.0",
-                "sebastian/environment": "^3.0|^4.0",
+                "sebastian/environment": "^3.0|^4.0|^5.0",
                 "sebastianfeldmann/cli": "^3.1"
             },
             "require-dev": {
@@ -466,7 +466,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-08-24T18:07:11+00:00"
+            "time": "2020-10-04T11:46:50+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -742,23 +742,23 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "4.2.3",
+            "version": "5.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "464c90d7bdf5ad4e8a6aea15c091fec0603d4368"
+                "reference": "388b6ced16caa751030f6a69e588299fa09200ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
-                "reference": "464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/388b6ced16caa751030f6a69e588299fa09200ac",
+                "reference": "388b6ced16caa751030f6a69e588299fa09200ac",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": ">=7.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.5"
+                "phpunit/phpunit": "^9.3"
             },
             "suggest": {
                 "ext-posix": "*"
@@ -766,7 +766,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "5.1-dev"
                 }
             },
             "autoload": {
@@ -791,7 +791,13 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2019-11-20T08:46:58+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-09-28T05:52:38+00:00"
         },
         {
             "name": "sebastianfeldmann/cli",

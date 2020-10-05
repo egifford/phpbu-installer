@@ -10,7 +10,7 @@
   "require": {
     "php": ">=7.4",
 
-    "phpbu/phpbu":      "6.0.9",
+    "phpbu/phpbu":      "6.0.10",
     "aws/aws-sdk-php":  "3.158.1",
     "vlucas/phpdotenv": "4.1.8"
   },
