@@ -10,22 +10,25 @@
   "require": {
     "php": ">=7.4",
 
-    "phpbu/phpbu":      "6.0.14",
-    "aws/aws-sdk-php":  "3.184.7",
-    "vlucas/phpdotenv": "4.2.0",
+    "phpbu/phpbu":      "6.0.16",
+    "aws/aws-sdk-php":  "3.225.4",
+    "vlucas/phpdotenv": "5.4.1",
 
-    "phpmailer/phpmailer": "6.5.0",
-    "sebastianfeldmann/cli": "3.3.1"
+    "phpmailer/phpmailer": "6.6.2",
+    "sebastianfeldmann/cli": "3.4.1"
   },
   "require-dev": {
-    "roave/security-advisories":    "dev-master",
+    "roave/security-advisories":    "dev-latest",
     "sllh/composer-versions-check": "^2.0"
   },
   "config": {
     "platform": {
-      "php": "7.4.10"
+      "php": "7.4"
     },
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "sllh/composer-versions-check": true
+    }
   },
   "autoload": {
     "psr-4": {
