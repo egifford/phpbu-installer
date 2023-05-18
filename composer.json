@@ -7,45 +7,50 @@
   "license": [
     "MIT"
   ],
+    "authors": [
+  ],
   "require": {
     "php": ">=7.4",
 
-    "phpbu/phpbu":      "6.0.16",
-    "aws/aws-sdk-php":  "3.225.4",
-    "vlucas/phpdotenv": "5.4.1",
+    "phpbu/phpbu":      "6.0.19",
+    "aws/aws-sdk-php":  "3.269.14",
+    "vlucas/phpdotenv": "5.5.0",
 
-    "phpmailer/phpmailer": "6.6.2",
+    "phpmailer/phpmailer":   "6.8.0",
     "sebastianfeldmann/cli": "3.4.1"
   },
   "require-dev": {
-    "roave/security-advisories":    "dev-latest",
-    "sllh/composer-versions-check": "^2.0"
-  },
-  "config": {
-    "platform": {
-      "php": "7.4"
-    },
-    "optimize-autoloader": true,
-    "allow-plugins": {
-      "sllh/composer-versions-check": true
-    }
+    "roave/security-advisories": "dev-latest"
   },
   "autoload": {
     "psr-4": {
-    }
+    },
+    "files": [
+    ]
   },
   "autoload-dev": {
     "psr-4": {
     }
   },
+  "prefer-stable": true,
   "repositories": [
   ],
-  "bin": [
-  ],
+  "config": {
+    "allow-plugins": {
+    },
+    "platform": {
+      "php": "7.4"
+    },
+    "optimize-autoloader": true
+  },
   "scripts": {
     "post-install-cmd": [
     ],
     "post-update-cmd": [
     ]
-  }
+  },
+  "extra": {
+  },
+  "bin": [
+  ]
 }
