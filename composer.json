@@ -11,15 +11,14 @@
     "php": ">=7.4",
 
     "phpbu/phpbu":      "6.0.14",
-    "aws/aws-sdk-php":  "3.184.7",
-    "vlucas/phpdotenv": "4.2.0",
+    "aws/aws-sdk-php":  "3.271.1",
+    "vlucas/phpdotenv": "4.3.0",
 
-    "phpmailer/phpmailer": "6.5.0",
+    "phpmailer/phpmailer": "6.8.0",
     "sebastianfeldmann/cli": "3.3.1"
   },
   "require-dev": {
-    "roave/security-advisories":    "dev-master",
-    "sllh/composer-versions-check": "^2.0"
+    "roave/security-advisories": "dev-latest"
   },
   "config": {
     "platform": {
