@@ -7,17 +7,16 @@
   "license": [
     "MIT"
   ],
-    "authors": [
+  "authors": [
   ],
   "require": {
     "php": ">=7.4",
 
-    "phpbu/phpbu":      "6.0.19",
-    "aws/aws-sdk-php":  "3.269.14",
-    "vlucas/phpdotenv": "5.5.0",
+    "phpbu/phpbu": "6.0.19",
 
-    "phpmailer/phpmailer":   "6.8.0",
-    "sebastianfeldmann/cli": "3.4.1"
+    "aws/aws-sdk-php":     "3.269.14",
+    "vlucas/phpdotenv":    "5.5.0",
+    "phpmailer/phpmailer": "6.8.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
