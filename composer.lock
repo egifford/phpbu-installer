@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73b5e0d77dc6316b0a3250282a9f2af3",
+    "content-hash": "69a3b1fedbbbea57b615435189c417a2",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1065,16 +1065,16 @@
         },
         {
             "name": "sebastianfeldmann/cli",
-            "version": "3.3.1",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianfeldmann/cli.git",
-                "reference": "490a6ba01d62e56d597b4d3377024feb87871f6f"
+                "reference": "8a932e99e9455981fb32fa6c085492462fe8f8cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianfeldmann/cli/zipball/490a6ba01d62e56d597b4d3377024feb87871f6f",
-                "reference": "490a6ba01d62e56d597b4d3377024feb87871f6f",
+                "url": "https://api.github.com/repos/sebastianfeldmann/cli/zipball/8a932e99e9455981fb32fa6c085492462fe8f8cf",
+                "reference": "8a932e99e9455981fb32fa6c085492462fe8f8cf",
                 "shasum": ""
             },
             "require": {
@@ -1111,7 +1111,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianfeldmann/cli/issues",
-                "source": "https://github.com/sebastianfeldmann/cli/tree/3.3.1"
+                "source": "https://github.com/sebastianfeldmann/cli/tree/3.4.1"
             },
             "funding": [
                 {
@@ -1119,7 +1119,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-08T09:20:06+00:00"
+            "time": "2021-12-20T14:59:49+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2051,14 +2051,14 @@
     "stability-flags": {
         "roave/security-advisories": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.4"
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.4.10"
+        "php": "7.4"
     },
     "plugin-api-version": "2.3.0"
 }
