@@ -7,39 +7,48 @@
   "license": [
     "MIT"
   ],
+  "authors": [
+  ],
   "require": {
     "php": ">=7.4",
 
-    "phpbu/phpbu":      "6.0.15",
+    "phpbu/phpbu": "6.0.15",
+
     "aws/aws-sdk-php":  "3.184.7",
     "vlucas/phpdotenv": "4.2.0"
   },
   "require-dev": {
-    "roave/security-advisories":    "dev-master",
-    "sllh/composer-versions-check": "^2.0"
-  },
-  "config": {
-    "platform": {
-      "php": "7.4.10"
-    },
-    "optimize-autoloader": true
+    "roave/security-advisories": "dev-latest"
   },
   "autoload": {
     "psr-4": {
-    }
+    },
+    "files": [
+    ]
   },
   "autoload-dev": {
     "psr-4": {
     }
   },
+  "prefer-stable": true,
   "repositories": [
   ],
-  "bin": [
-  ],
+  "config": {
+    "allow-plugins": {
+    },
+    "platform": {
+      "php": "7.4"
+    },
+    "optimize-autoloader": true
+  },
   "scripts": {
     "post-install-cmd": [
     ],
     "post-update-cmd": [
     ]
-  }
+  },
+  "extra": {
+  },
+  "bin": [
+  ]
 }
