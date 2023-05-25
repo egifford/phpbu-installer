@@ -1,5 +1,5 @@
 {
-  "name":        "egifford/phpunit-installer",
+  "name":        "egifford/phpbu-installer",
   "type":        "project",
   "description": "Helper scripts for installing and running PHPBU.",
   "keywords":    [],
@@ -8,6 +8,18 @@
     "MIT"
   ],
   "authors": [
+    {
+      "name":     "Corexcel",
+      "homepage": "https://www.corexcel.com",
+      "role":     "Owner",
+      "email":    "learn@corexcel.com"
+    },
+    {
+      "name":     "Ed Gifford",
+      "homepage": "https://www.corexcel.com",
+      "role":     "Developer",
+      "email":    "egifford@corexcel.com"
+    }
   ],
   "require": {
     "php": ">=7.4",

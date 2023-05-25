@@ -1,3 +1,14 @@
 ##
-# The following settings are used to remove folders/files from deployment when using 'git archive'.
+# What is a GITATTRIBUTES file?
+#
+# It is a path-specific setting file used by Git. It contains attributes that dictate what settings Git applies to
+# certain subdirectories or subsets of files; located in the root directory of the project; similar to the .GITIGNORE file.
+#
+# It can be used to skip folders/files from deployment when using 'git archive'.
 ##
+
+##
+# Exclude Git files.
+##
+/.gitignore export-ignore
+/.gitattributes export-ignore
