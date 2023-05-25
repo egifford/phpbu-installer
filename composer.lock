@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b947fc8dc4afdd46457f0bf9de7b3e01",
+    "content-hash": "5d8cb876072c43966e4ba89d517e644f",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -601,16 +601,16 @@
         },
         {
             "name": "phpbu/phpbu",
-            "version": "6.0.17",
+            "version": "6.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianfeldmann/phpbu.git",
-                "reference": "5e8586d0a3697eb403f082f1bf8487a0ace1a166"
+                "reference": "22840c6074c3a842d3e398d1d4fc87134aef62c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianfeldmann/phpbu/zipball/5e8586d0a3697eb403f082f1bf8487a0ace1a166",
-                "reference": "5e8586d0a3697eb403f082f1bf8487a0ace1a166",
+                "url": "https://api.github.com/repos/sebastianfeldmann/phpbu/zipball/22840c6074c3a842d3e398d1d4fc87134aef62c0",
+                "reference": "22840c6074c3a842d3e398d1d4fc87134aef62c0",
                 "shasum": ""
             },
             "require": {
@@ -625,9 +625,8 @@
             "require-dev": {
                 "arhitector/yandex": "^2.0",
                 "aws/aws-sdk-php": "^3.10",
-                "captainhook/captainhook": "^5.0",
                 "google/apiclient": "2.7.*",
-                "guzzlehttp/guzzle": "^5.3.3|^6.2.1|^7.0.0",
+                "guzzlehttp/guzzle": "^5.3.4|^6.5.8|^7.5.0",
                 "kunalvarma05/dropbox-php-sdk": "^0.2",
                 "microsoft/azure-storage-blob": "^1.4",
                 "php-opencloud/openstack": "^3.0",
@@ -694,7 +693,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianfeldmann/phpbu/issues",
-                "source": "https://github.com/sebastianfeldmann/phpbu/tree/6.0.17"
+                "source": "https://github.com/sebastianfeldmann/phpbu/tree/6.0.18"
             },
             "funding": [
                 {
@@ -702,7 +701,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-05-17T17:34:58+00:00"
+            "time": "2023-02-19T19:23:54+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
