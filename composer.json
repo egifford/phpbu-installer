@@ -42,9 +42,6 @@
     },
     "optimize-autoloader": true
   },
-
-
-
   "scripts": {
     "post-install-cmd": [
     ],
