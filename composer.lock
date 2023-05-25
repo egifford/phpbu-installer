@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "457f6c6c4a8a3b632b995ebe062771cc",
+    "content-hash": "89ab87a05237354d0bd6c250515906b7",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -601,16 +601,16 @@
         },
         {
             "name": "phpbu/phpbu",
-            "version": "6.0.16",
+            "version": "6.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianfeldmann/phpbu.git",
-                "reference": "724e4516ec2f9f48e7e3361718a7e9d573db3022"
+                "reference": "5e8586d0a3697eb403f082f1bf8487a0ace1a166"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianfeldmann/phpbu/zipball/724e4516ec2f9f48e7e3361718a7e9d573db3022",
-                "reference": "724e4516ec2f9f48e7e3361718a7e9d573db3022",
+                "url": "https://api.github.com/repos/sebastianfeldmann/phpbu/zipball/5e8586d0a3697eb403f082f1bf8487a0ace1a166",
+                "reference": "5e8586d0a3697eb403f082f1bf8487a0ace1a166",
                 "shasum": ""
             },
             "require": {
@@ -619,14 +619,15 @@
                 "ext-spl": "*",
                 "php": ">=7.2.0",
                 "sebastian/environment": "^3.0|^4.0|^5.0",
-                "sebastianfeldmann/cli": "^3.4"
+                "sebastianfeldmann/cli": "^3.4",
+                "symfony/process": "^3.0|^4.0|^5.0|^6.0"
             },
             "require-dev": {
                 "arhitector/yandex": "^2.0",
                 "aws/aws-sdk-php": "^3.10",
                 "captainhook/captainhook": "^5.0",
                 "google/apiclient": "2.7.*",
-                "guzzlehttp/guzzle": "^5.3.3|^6.2.1",
+                "guzzlehttp/guzzle": "^5.3.3|^6.2.1|^7.0.0",
                 "kunalvarma05/dropbox-php-sdk": "^0.2",
                 "microsoft/azure-storage-blob": "^1.4",
                 "php-opencloud/openstack": "^3.0",
@@ -635,7 +636,6 @@
                 "sebastianfeldmann/ftp": "^0.9",
                 "sebastianfeldmann/git": "^3.2",
                 "softlayer/objectstorage": "dev-master",
-                "tightenco/collect": "^5.0",
                 "vlucas/phpdotenv": "^4.0"
             },
             "suggest": {
@@ -694,7 +694,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianfeldmann/phpbu/issues",
-                "source": "https://github.com/sebastianfeldmann/phpbu/tree/6.0.16"
+                "source": "https://github.com/sebastianfeldmann/phpbu/tree/6.0.17"
             },
             "funding": [
                 {
@@ -702,7 +702,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-24T15:41:16+00:00"
+            "time": "2022-05-17T17:34:58+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -1498,6 +1498,68 @@
                 }
             ],
             "time": "2022-11-03T14:55:06+00:00"
+        },
+        {
+            "name": "symfony/process",
+            "version": "v5.4.23",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "4b842fc4b61609e0a155a114082bd94e31e98287"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/4b842fc4b61609e0a155a114082bd94e31e98287",
+                "reference": "4b842fc4b61609e0a155a114082bd94e31e98287",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Executes commands in sub-processes",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/process/tree/v5.4.23"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-04-18T13:50:24+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
