@@ -14,7 +14,7 @@
 
     "phpbu/phpbu": "6.0.19",
 
-    "aws/aws-sdk-php":     "3.269.14",
+    "aws/aws-sdk-php":     "3.271.1",
     "vlucas/phpdotenv":    "5.5.0",
     "phpmailer/phpmailer": "6.8.0"
   },
