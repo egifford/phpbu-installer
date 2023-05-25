@@ -16,7 +16,9 @@
 
     "aws/aws-sdk-php":     "3.271.1",
     "vlucas/phpdotenv":    "5.5.0",
-    "phpmailer/phpmailer": "6.8.0"
+    "phpmailer/phpmailer": "6.8.0",
+
+    "sebastianfeldmann/cli": "dev-escape-windows as 3.4.1"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
@@ -25,6 +27,7 @@
     "psr-4": {
     },
     "files": [
+      "src/bootstrap.php"
     ]
   },
   "autoload-dev": {
@@ -33,6 +36,10 @@
   },
   "prefer-stable": true,
   "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/egifford/cli"
+    }
   ],
   "config": {
     "allow-plugins": {

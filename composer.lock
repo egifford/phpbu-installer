@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89ab87a05237354d0bd6c250515906b7",
+    "content-hash": "decbbd17f23d3d312e9effd9ccffa8da",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1128,20 +1128,23 @@
         },
         {
             "name": "sebastianfeldmann/cli",
-            "version": "3.4.1",
+            "version": "dev-escape-windows",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sebastianfeldmann/cli.git",
-                "reference": "8a932e99e9455981fb32fa6c085492462fe8f8cf"
+                "url": "https://github.com/egifford/cli.git",
+                "reference": "c934fa9ca2eaeb281be5ed676cdb342a39ffddf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianfeldmann/cli/zipball/8a932e99e9455981fb32fa6c085492462fe8f8cf",
-                "reference": "8a932e99e9455981fb32fa6c085492462fe8f8cf",
+                "url": "https://api.github.com/repos/egifford/cli/zipball/c934fa9ca2eaeb281be5ed676cdb342a39ffddf7",
+                "reference": "c934fa9ca2eaeb281be5ed676cdb342a39ffddf7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
+            },
+            "replace": {
+                "sebastianfeldmann/cli": "3.4.1"
             },
             "require-dev": {
                 "symfony/process": "^4.3 | ^5.0"
@@ -1157,7 +1160,25 @@
                     "SebastianFeldmann\\Cli\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "SebastianFeldmann\\Cli\\": "tests/cli/"
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "tools/phive install"
+                ],
+                "test": [
+                    "tools/phpunit"
+                ],
+                "analyse": [
+                    "tools/phpstan analyse"
+                ],
+                "style": [
+                    "tools/phpcs --standard=psr12 src tests"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -1174,15 +1195,15 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianfeldmann/cli/issues",
-                "source": "https://github.com/sebastianfeldmann/cli/tree/3.4.1"
+                "source": "https://github.com/egifford/cli/tree/escape-windows"
             },
             "funding": [
                 {
-                    "url": "https://github.com/sebastianfeldmann",
-                    "type": "github"
+                    "type": "github",
+                    "url": "https://github.com/sebastianfeldmann"
                 }
             ],
-            "time": "2021-12-20T14:59:49+00:00"
+            "time": "2023-05-25T20:55:16+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2256,9 +2277,17 @@
             "time": "2023-05-22T21:04:18+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "sebastianfeldmann/cli",
+            "version": "dev-escape-windows",
+            "alias": "3.4.1",
+            "alias_normalized": "3.4.1.0"
+        }
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
+        "sebastianfeldmann/cli": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
