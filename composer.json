@@ -14,8 +14,9 @@
 
     "phpbu/phpbu": "6.0.15",
 
-    "aws/aws-sdk-php":  "3.184.7",
-    "vlucas/phpdotenv": "4.2.0"
+    "aws/aws-sdk-php":     "3.271.1",
+    "vlucas/phpdotenv":    "4.3.0",
+    "phpmailer/phpmailer": "6.8.0"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
