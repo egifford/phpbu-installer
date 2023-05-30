@@ -1,5 +1,5 @@
 {
-  "name":        "egifford/phpunit-installer",
+  "name":        "egifford/phpbu-installer",
   "type":        "project",
   "description": "Helper scripts for installing and running PHPBU.",
   "keywords":    [],
@@ -8,15 +8,29 @@
     "MIT"
   ],
   "authors": [
+    {
+      "name":     "Corexcel",
+      "homepage": "https://www.corexcel.com",
+      "role":     "Owner",
+      "email":    "learn@corexcel.com"
+    },
+    {
+      "name":     "Ed Gifford",
+      "homepage": "https://www.corexcel.com",
+      "role":     "Developer",
+      "email":    "egifford@corexcel.com"
+    }
   ],
   "require": {
     "php": ">=7.4",
 
     "phpbu/phpbu": "6.0.19",
 
-    "aws/aws-sdk-php":     "3.271.1",
+    "aws/aws-sdk-php":     "3.271.2",
     "vlucas/phpdotenv":    "5.5.0",
-    "phpmailer/phpmailer": "6.8.0"
+    "phpmailer/phpmailer": "6.8.0",
+
+    "sebastianfeldmann/cli": "dev-escape-windows as 3.4.1"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
@@ -25,6 +39,7 @@
     "psr-4": {
     },
     "files": [
+      "src/bootstrap.php"
     ]
   },
   "autoload-dev": {
@@ -33,6 +48,10 @@
   },
   "prefer-stable": true,
   "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/egifford/cli"
+    }
   ],
   "config": {
     "allow-plugins": {

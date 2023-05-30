@@ -1,12 +1,28 @@
 ##
-# The following settings control what folders/files are ignored (or not ignored) by Git.
+# What is a GITIGNORE file?
+#
+# File used by Git that contains a list of files that should not be committed to the Git source code repository; often
+# used for omitting non-text (binary) files, OS files (e.g., .DS_STORE and Thumbs.db files), and temporary files from
+# the repository.
 ##
 
-# Eclipse folders and files.
-/.project
+##
+# Exclude PHPStorm
+##
+/.idea/*
 
-# PHPStorm folders and files.
-/.idea
+# Don't ignore PhpStorm PHP settings.
+!/.idea/php.xml
 
-# Composer files.
+# Don't ignore PhpStorm spelling dictionaries.
+!/.idea/dictionaries/*
+
+##
+# Exclude Eclipse
+##
+/.project/*
+
+##
+# Exclude Composer's generated files.
+##
 /vendor
