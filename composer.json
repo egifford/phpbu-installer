@@ -24,11 +24,11 @@
   "require": {
     "php": ">=7.4",
 
-    "phpbu/phpbu": "6.0.19",
+    "phpbu/phpbu": "6.0.20",
 
-    "aws/aws-sdk-php":     "3.271.4",
-    "vlucas/phpdotenv":    "5.5.0",
-    "phpmailer/phpmailer": "6.8.0",
+    "aws/aws-sdk-php":     "3.305.3",
+    "vlucas/phpdotenv":    "5.6.0",
+    "phpmailer/phpmailer": "6.9.1",
 
     "sebastianfeldmann/cli": "dev-escape-windows as 3.4.1"
   },
