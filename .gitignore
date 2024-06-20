@@ -9,13 +9,13 @@
 ##
 # Exclude PHPStorm
 ##
-/.idea/*
+#/.idea/*
 
 # Don't ignore PhpStorm PHP settings.
-!/.idea/php.xml
+#!/.idea/php.xml
 
 # Don't ignore PhpStorm spelling dictionaries.
-!/.idea/dictionaries/*
+#!/.idea/dictionaries/*
 
 ##
 # Exclude Eclipse
