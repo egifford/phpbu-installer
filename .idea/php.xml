@@ -37,7 +37,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.3">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
   <component name="PhpRuntimeConfiguration">
@@ -51,6 +51,7 @@
       <extension name="amqp" enabled="false" />
       <extension name="apache" enabled="false" />
       <extension name="apcu" enabled="false" />
+      <extension name="brotli" enabled="false" />
       <extension name="bz2" enabled="false" />
       <extension name="cassandra" enabled="false" />
       <extension name="couchbase" enabled="false" />
